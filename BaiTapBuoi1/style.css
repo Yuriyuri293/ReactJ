@@ -1,0 +1,64 @@
+* {
+    margin: 0;/*khoang cach ben ngoai phan tu */
+    padding: 0;/*khoang cach ben trong phan tu */
+    box-sizing: border-box; /*vien ( border ) ben trong phan tu*/
+    font-family: Arial,Helvetica,sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+.container {
+    width: 80%;
+    margin: 0 10%;
+}
+.post {
+    width: 346px;
+}
+.titel-post {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.titel-post:hover {
+    color: #92d222;
+}
+.wrap-post {
+    display: flex;
+}
+
+.content-post {
+    padding: 0 5px;
+}
+.content-post p {
+
+font-size: 13px;
+
+color: #333;
+}
+.content-post a {
+    font-size: 12px;
+    color: #777;
+}
+.content-post a:hover {
+    text-decoration: underline;
+}
+.content-post a i {
+    color: #92d222;
+    
+}
+.news {
+    color: green;
+    list-style-position: inside;
+    list-style-type: square;
+    background-color: #eaf8d2;
+    padding: 0 0 0 10px;
+}
+.news li a {
+    font-size: 14px;
+    color: #585858;
+}
+.news a:hover {
+    color: green;
+}
