@@ -1,0 +1,13 @@
+#logo{
+    width: 150px;
+    height: 150px;
+
+}
+.header{
+    width: 700px;
+    height: 700px;
+}
+.menu li a{
+    display: inline-block;
+   padding: 5px;
+}
