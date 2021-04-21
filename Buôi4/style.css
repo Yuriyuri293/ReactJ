@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body >p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: unset;
+    text-align: center;
+    background-color: yellow;
+  
+}
+body >span{
+    background-color: tomato;
+    text-align: center;
+}
+#block{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+   
+}
+.s::first-letter{
+    
+    text-transform: capitalize;
+}
+#a::first-letter{
+    color: yellowgreen;
+    text-transform: uppercase;
+}
+
+.backgoup{
+
+    background-image:url(./images/3557639_big_5f32fb4f4a75846aed30215638971bfd7be7fdcb.jpg);
+width: auto;
+height: 50vh;
+background-repeat: no-repeat;
+}

@@ -1,0 +1,202 @@
+@media screen and (max-width: 400px) {
+    *,
+    body,
+    html {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    :root {
+        --color-key: #000000;
+        --color-background: #2091f9;
+        --color-btn: white;
+    }
+    a {
+        text-decoration: none;
+    }
+    header {
+        height: 89vh;
+    }
+    .content-header {
+        top: 45%;
+    }
+    .logo img {
+        width: 200px;
+        padding: 0 0 0 30px;
+    }
+    .menu {
+        display: none;
+        background: #ebebeb5e;
+        right: 0;
+        top: 0;
+        position: absolute;
+        padding: 80px 20px;
+        flex-direction: column;
+    }
+    .social {
+        display: none;
+    }
+    .title-header {
+        font-size: 1.3em;
+        color: white;
+        font-weight: 200;
+    }
+    .detail-header {
+        font-size: .8em;
+        margin: 20px 0;
+        
+    }
+    .content-header a {
+        font-size: 0.9em;
+        padding: 12px 40px;
+    }
+    .feature h1 {
+        font-size: 2em;
+        margin: 0 0 20px 0;
+        font-weight: 200;
+    }
+    .feature p {
+        font-size: .8em;
+        width: 80%;
+    }
+    .wrap-type {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .sometype {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .type {
+        width: 60%;
+    }
+    .type p {
+        line-height: 17px;
+        color: #565656;
+    }
+    .type h3 {
+        margin: 10px 0;
+        font-size: 1.1em;
+    }
+    .type img {
+        margin: 20px 0 0 0;
+        width: 45px;
+        height: 45px;
+    }
+    .banner img {
+        margin: 20px 0 0 0;
+    }
+    .feature {
+        padding: 35px 0 0 0;
+    }
+    .latest {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .latest-l a {
+        display: inline-block;
+        margin: 0 25%;
+        width: 50%;
+        text-align: center;
+        padding: 8px 10px;
+    }
+    .latest-l h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .latest-l p {
+        font-size: 1em;
+        text-align: center;
+    }
+    .content-pricing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-pricing img:nth-child(odd), .content-pricing img:nth-child(even) {
+        margin: 0 0 20px 0;
+    }
+    .contact-us .content-pricing {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content-pri-l {
+        width: 100%;
+    }
+    .content-pri-l form {
+        width: 80%;
+    }
+    .map {
+        display: none;
+    }
+    .content-pri-r {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .content-pri-r .contact-r {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .content-pri-r .contact-social {
+        text-align: center;
+        padding: 0;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .table {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .footer-r div {
+        margin: 20px 0 0 0;
+    }
+    .social-ft {
+        display: block;
+    text-align: center;
+    margin: 20px 0 0 0;
+    }
+    .pricing .title-pricing p {
+        color: black;
+        margin: 0 0 30px 0;
+        padding: 0 50px;
+    }
+    .targetmenu {
+        display: block;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        right: 40px;
+        top: 76px;
+    }
+    .delete {
+        display: none;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        background: red;
+        padding: 2px 6px;
+    }
+    .hiden {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+    .content-pri-l textarea {
+        max-width: 260px;
+    }
+}
